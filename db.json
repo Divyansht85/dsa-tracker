@@ -1,0 +1,19 @@
+[
+  {
+    "id": "7955f548-7364-424a",
+    "topic": "Dynamic Programming",
+    "name": "Longest Common Subsequence",
+    "link": "https://leetcode.com/problems/longest-common-subsequence/",
+    "difficulty": "Medium",
+    "importance": 3,
+    "status": "Todo",
+    "trick": "DP table, compare chars, dp[i][j] = dp[i-1][j-1]+1 if match",
+    "tags": [
+      "dp",
+      "string",
+      "classic"
+    ],
+    "lastRevised": "2026-04-22T18:11:04.821Z",
+    "createdAt": "2026-04-22T18:11:04.821Z"
+  }
+]
