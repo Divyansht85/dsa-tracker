@@ -1,19 +1,15 @@
 [
   {
-    "id": "7955f548-7364-424a",
-    "topic": "Dynamic Programming",
-    "name": "Longest Common Subsequence",
-    "link": "https://leetcode.com/problems/longest-common-subsequence/",
-    "difficulty": "Medium",
-    "importance": 3,
+    "id": "794bb0b8-53bc-408c",
+    "topic": "Array",
+    "name": "2 Sum",
+    "link": "",
+    "difficulty": "Easy",
+    "importance": 1,
     "status": "Todo",
-    "trick": "DP table, compare chars, dp[i][j] = dp[i-1][j-1]+1 if match",
-    "tags": [
-      "dp",
-      "string",
-      "classic"
-    ],
-    "lastRevised": "2026-04-22T18:11:04.821Z",
-    "createdAt": "2026-04-22T18:11:04.821Z"
+    "trick": "",
+    "tags": [],
+    "lastRevised": null,
+    "createdAt": "2026-04-22T18:32:30.981Z"
   }
 ]

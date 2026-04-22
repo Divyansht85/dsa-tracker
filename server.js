@@ -1,6 +1,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const app = express();
 const PORT = 3456;
@@ -88,5 +89,30 @@ app.post("/api/questions/import", (req, res) => {
 
 // ── Start ──
 app.listen(PORT, () => {
-  console.log(`\n  ⚡ DSA Tracker server running at http://localhost:${PORT}\n`);
+  console.log(`\n  ⚡ DSA Tracker server running at http://localhost:${PORT}`);
+  console.log(`  📦 Auto-save to GitHub on shutdown (Ctrl+C)\n`);
 });
+
+// ── Auto Git Save on Shutdown ──
+function gitAutoSave() {
+  console.log("\n  💾 Auto-saving to GitHub...");
+  try {
+    const status = execSync("git status --porcelain", { cwd: __dirname }).toString().trim();
+    if (!status) {
+      console.log("  ✓ No changes to save.\n");
+      process.exit(0);
+      return;
+    }
+    execSync("git add -A", { cwd: __dirname });
+    const timestamp = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
+    execSync(`git commit -m "auto-save: ${timestamp}"`, { cwd: __dirname });
+    execSync("git push", { cwd: __dirname, timeout: 15000 });
+    console.log("  ✓ Saved & pushed to GitHub!\n");
+  } catch (err) {
+    console.error("  ✗ Auto-save failed:", err.message, "\n");
+  }
+  process.exit(0);
+}
+
+process.on("SIGINT", gitAutoSave);   // Ctrl+C
+process.on("SIGTERM", gitAutoSave);  // kill command
