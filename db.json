@@ -1,15 +1,15 @@
 [
   {
-    "id": "794bb0b8-53bc-408c",
-    "topic": "Array",
-    "name": "2 Sum",
-    "link": "",
+    "id": "6c0d8644-ffc3-46e3",
+    "topic": "Hash Map",
+    "name": "Longest Consecutive Sequence",
+    "link": "https://leetcode.com/problems/longest-consecutive-sequence/description/",
     "difficulty": "Easy",
-    "importance": 1,
-    "status": "Todo",
-    "trick": "",
+    "importance": 3,
+    "status": "Revision",
+    "trick": "Find if current element is first element of series then only process this series.",
     "tags": [],
     "lastRevised": null,
-    "createdAt": "2026-04-22T18:32:30.981Z"
+    "createdAt": "2026-05-02T12:21:26.652Z"
   }
 ]
