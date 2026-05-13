@@ -11,5 +11,20 @@
     "tags": [],
     "lastRevised": null,
     "createdAt": "2026-05-02T12:21:26.652Z"
+  },
+  {
+    "id": "059cfcd0-f44d-4f0b",
+    "topic": "Arrays",
+    "name": "Majority Element n/3 times",
+    "link": "https://leetcode.com/problems/majority-element-ii/",
+    "difficulty": "Hard",
+    "importance": 4,
+    "status": "Revision",
+    "trick": "Write clean code. Write matching condition first then not standing candidates then both candidates standing but no match. After loop candidates will not be same so check votes of both candidates.",
+    "tags": [
+      "Boyer Moor's Voting Algorithm"
+    ],
+    "lastRevised": null,
+    "createdAt": "2026-05-13T18:19:14.252Z"
   }
 ]
