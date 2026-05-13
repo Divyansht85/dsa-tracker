@@ -6,10 +6,10 @@
     "link": "https://leetcode.com/problems/longest-consecutive-sequence/description/",
     "difficulty": "Easy",
     "importance": 3,
-    "status": "Revision",
+    "status": "Solved",
     "trick": "Find if current element is first element of series then only process this series.",
     "tags": [],
-    "lastRevised": null,
+    "lastRevised": "2026-05-13T18:22:13.970Z",
     "createdAt": "2026-05-02T12:21:26.652Z"
   },
   {
@@ -19,12 +19,12 @@
     "link": "https://leetcode.com/problems/majority-element-ii/",
     "difficulty": "Hard",
     "importance": 4,
-    "status": "Revision",
+    "status": "Solved",
     "trick": "Write clean code. Write matching condition first then not standing candidates then both candidates standing but no match. After loop candidates will not be same so check votes of both candidates.",
     "tags": [
       "Boyer Moor's Voting Algorithm"
     ],
-    "lastRevised": null,
+    "lastRevised": "2026-05-13T18:22:11.928Z",
     "createdAt": "2026-05-13T18:19:14.252Z"
   }
 ]
