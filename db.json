@@ -6,7 +6,7 @@
     "link": "https://leetcode.com/problems/longest-consecutive-sequence/description/",
     "difficulty": "Easy",
     "importance": 3,
-    "status": "Solved",
+    "status": "Revision",
     "trick": "Find if current element is first element of series then only process this series.",
     "tags": [],
     "lastRevised": "2026-05-13T18:22:13.970Z",
@@ -19,12 +19,42 @@
     "link": "https://leetcode.com/problems/majority-element-ii/",
     "difficulty": "Hard",
     "importance": 4,
-    "status": "Solved",
+    "status": "Revision",
     "trick": "Write clean code. Write matching condition first then not standing candidates then both candidates standing but no match. After loop candidates will not be same so check votes of both candidates.",
     "tags": [
       "Boyer Moor's Voting Algorithm"
     ],
     "lastRevised": "2026-05-13T18:22:11.928Z",
     "createdAt": "2026-05-13T18:19:14.252Z"
+  },
+  {
+    "id": "dce3e58d-57c6-467b",
+    "topic": "Arrays",
+    "name": "4Sum",
+    "link": "https://leetcode.com/problems/4sum/",
+    "difficulty": "Medium",
+    "importance": 3,
+    "status": "Revision",
+    "trick": "Mistake - Writing code that generates all unique elements in single quadruplet.",
+    "tags": [
+      "Two Pointer"
+    ],
+    "lastRevised": "2026-05-14T13:01:15.684Z",
+    "createdAt": "2026-05-14T13:01:15.684Z"
+  },
+  {
+    "id": "2b081c4e-6afd-461c",
+    "topic": "Arrays",
+    "name": "Merge Intervals",
+    "link": "https://leetcode.com/problems/merge-intervals/description/",
+    "difficulty": "Easy",
+    "importance": 2,
+    "status": "Solved",
+    "trick": "Sort by left increasing and right decreasing to make it much easier.",
+    "tags": [
+      "Greedy"
+    ],
+    "lastRevised": "2026-05-14T17:38:39.927Z",
+    "createdAt": "2026-05-14T17:38:39.927Z"
   }
 ]
