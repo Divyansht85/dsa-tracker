@@ -56,5 +56,20 @@
     ],
     "lastRevised": "2026-05-14T17:38:39.927Z",
     "createdAt": "2026-05-14T17:38:39.927Z"
+  },
+  {
+    "id": "1cc5cea3-d68a-492f",
+    "topic": "Arrays",
+    "name": "Find Missing and Repeated Values",
+    "link": "https://leetcode.com/problems/find-missing-and-repeated-values/description/",
+    "difficulty": "Medium",
+    "importance": 4,
+    "status": "Revision",
+    "trick": "Solve using algebra. Sum of first n natural numbers and sum of square of first n natural numbers.",
+    "tags": [
+      "Math"
+    ],
+    "lastRevised": "2026-05-17T03:21:09.456Z",
+    "createdAt": "2026-05-17T03:19:00.950Z"
   }
 ]
