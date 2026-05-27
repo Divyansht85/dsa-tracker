@@ -71,5 +71,20 @@
     ],
     "lastRevised": "2026-05-17T03:21:09.456Z",
     "createdAt": "2026-05-17T03:19:00.950Z"
+  },
+  {
+    "id": "ffcb4ad7-c3ed-4cce",
+    "topic": "Sorting",
+    "name": "Reverse Pairs",
+    "link": "https://leetcode.com/problems/reverse-pairs/description/",
+    "difficulty": "Hard",
+    "importance": 4,
+    "status": "Revision",
+    "trick": "Don't count while merging, make a seperate loop. The negative elements will be taken care.",
+    "tags": [
+      "Merge Sort"
+    ],
+    "lastRevised": "2026-05-27T01:06:51.871Z",
+    "createdAt": "2026-05-27T01:06:45.698Z"
   }
 ]
