@@ -101,5 +101,20 @@
     ],
     "lastRevised": "2026-06-07T13:02:44.471Z",
     "createdAt": "2026-06-07T13:02:39.771Z"
+  },
+  {
+    "id": "6f252d34-49d8-4917",
+    "topic": "Binary Search",
+    "name": "Search in Rotated Sorted Array",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/",
+    "difficulty": "Medium",
+    "importance": 5,
+    "status": "Revision",
+    "trick": "I keep forgetting case when nums[low]==nums[mid]==nums[high] and test case [1,0,1,1,1]. Here we need to chip off nums[low] and nums[high] because they can be part of answer.",
+    "tags": [
+      "Binary Search"
+    ],
+    "lastRevised": "2026-06-08T04:23:41.678Z",
+    "createdAt": "2026-06-08T04:23:33.615Z"
   }
 ]
