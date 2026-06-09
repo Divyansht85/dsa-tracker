@@ -116,5 +116,18 @@
     ],
     "lastRevised": "2026-06-08T04:23:41.678Z",
     "createdAt": "2026-06-08T04:23:33.615Z"
+  },
+  {
+    "id": "2535b206-d2e5-4406",
+    "topic": "Binary Search",
+    "name": "Single Element in a Sorted Array",
+    "link": "https://leetcode.com/problems/single-element-in-a-sorted-array/description/",
+    "difficulty": "Medium",
+    "importance": 4,
+    "status": "Solved",
+    "trick": "Treat it like peak element question with rejection based on size of subarray. Mistake- Counting mid while finding size of subarray.",
+    "tags": [],
+    "lastRevised": "2026-06-09T11:10:02.530Z",
+    "createdAt": "2026-06-09T11:10:02.530Z"
   }
 ]
