@@ -95,7 +95,7 @@
     "difficulty": "Hard",
     "importance": 4,
     "status": "Revision",
-    "trick": "Maintain both min and max products because min and become max after multiplication with negative number.",
+    "trick": "Maintain both min and max products because min will become max after multiplication with negative number.",
     "tags": [
       "Kadne's Algorithm"
     ],
@@ -129,5 +129,31 @@
     "tags": [],
     "lastRevised": "2026-06-09T11:10:02.530Z",
     "createdAt": "2026-06-09T11:10:02.530Z"
+  },
+  {
+    "id": "966581ae-704a-4df6",
+    "topic": "Binary Search",
+    "name": "Kth Missing Positive Number",
+    "link": "https://leetcode.com/problems/kth-missing-positive-number/description/",
+    "difficulty": "Medium",
+    "importance": 4,
+    "status": "Revision",
+    "trick": "Do both linear and log time.",
+    "tags": [],
+    "lastRevised": "2026-07-04T15:04:33.536Z",
+    "createdAt": "2026-07-04T10:21:02.658Z"
+  },
+  {
+    "id": "059d21de-bc6f-4a4f",
+    "topic": "Binary Search",
+    "name": "Allocate Minimum Pages",
+    "link": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
+    "difficulty": "Medium",
+    "importance": 4,
+    "status": "Revision",
+    "trick": "Mistake - When i come out of loop after counting number of students required and number of pages, i don't count one more student who needs to read leftover pages.",
+    "tags": [],
+    "lastRevised": "2026-07-04T15:04:37.275Z",
+    "createdAt": "2026-07-04T15:03:52.012Z"
   }
 ]
